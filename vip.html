@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <title>Crescendo Music - VIP</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="master.css" />
+    <script
+      src="https://kit.fontawesome.com/c60a194b88.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(window).scroll(function () {
+          $(".hideme").each(function (i) {
+            var bottom_of_element =
+              $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if (bottom_of_window > bottom_of_element) {
+              $(this).animate({ opacity: "1" }, 2000);
+            }
+            $(".price");
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div class="floatimg">
+        <a href="index.html">
+          <img src="Music.jpg" height="100" width="100" alt="Home" />
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="download.html">Download</a></li>
+          <li><a>VIP</a></li>
+          <li><a href="features.html">Features</a></li>
+          <li class="right"><a href="signup.html">Sign Up</a></li>
+          <li class="right"><a href="signin.html">Sign In</a></li>
+        </ul>
+      </nav>
+
+      <main>
+        <div class="downloadicon">
+          <img
+            class="fade"
+            src="headphones.png"
+            height="500"
+            width="500"
+            alt="VIP"
+          />
+        </div>
+
+        <div class="another">
+          <h1>Try VIP for free for 5 months</h1>
+          <p>Play ad free and offline.</p>
+
+          <form>
+            <input type="submit" value="BE VIP" />
+          </form>
+        </div>
+
+        <article>
+          <h2>Why be VIP?</h2>
+          <p>Listening where you want, when you want.</p>
+          <br />
+          <br />
+          <div>
+            <div class="hideme">
+              <div class="image">
+                <img
+                  src="downloadmusic.png"
+                  height="60"
+                  width="60"
+                  alt="Download Music"
+                />
+              </div>
+            </div>
+            <div class="hideme">
+              <h3>Download Your Music</h3>
+              <p>Download all your fav music.</p>
+              <br />
+
+              <div class="image">
+                <img
+                  src="skips.jpg"
+                  height="60"
+                  width="60"
+                  alt="Unlimited Skips"
+                />
+              </div>
+            </div>
+            <div class="hideme">
+              <h3>Skip Forever</h3>
+              <p>Skip to the next song when ever.</p>
+              <br />
+
+              <div class="image">
+                <img
+                  src="play.png"
+                  height="60"
+                  width="60"
+                  alt="Play Where Ever"
+                />
+              </div>
+            </div>
+            <div class="hideme">
+              <h3>Play it Everywhere</h3>
+              <p>Play all your favs anywhere anytime.</p>
+              <br />
+
+              <div class="image">
+                <img src="ad.png" height="60" width="60" alt="Ad Free" />
+              </div>
+            </div>
+            <div class="hideme">
+              <h3>What Ads?</h3>
+              <p>No ads when you listen, no interuptions.</p>
+              <br />
+              <br />
+              <br />
+              <br />
+            </div>
+            <h2>How VIP are you?</h2>
+            <p>Pick from all of our great plans.</p>
+          </div>
+        </article>
+
+        <div class="price">
+          <menu>
+            <div class="border">
+              <h3>Personal</h3>
+              <p>$5.99/month</p>
+              1 account
+              <br />
+              <hr />
+              <br />
+              <i class="fas fa-check"></i> Listen to music ad free.
+              <br />
+              <br />
+              <i class="fas fa-check"></i> Play anywhere and even offline.
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+
+              <hr />
+              <form>
+                <input type="submit" value="I'M IN" />
+              </form>
+            </div>
+          </menu>
+
+          <menu>
+            <div class="border">
+              <h3>Family</h3>
+              <p>$9.99/month</p>
+              7 accounts
+              <br />
+              <hr />
+              <br />
+              <i class="fas fa-check"></i> Ad free music listening, play
+              offline.
+              <br />
+              <br />
+              <i class="fas fa-check"></i> 7 accounts for family members.
+              <br />
+              <br />
+              <i class="fas fa-check"></i> Have your own playlist.
+              <br />
+              <br />
+              <br />
+              <br />
+              <hr />
+              <form>
+                <input type="submit" value="I'M IN" />
+              </form>
+            </div>
+          </menu>
+
+          <menu>
+            <div class="border">
+              <h3>Student</h3>
+              <p>$2.99/month</p>
+              1 account
+              <br />
+              <hr />
+              <br />
+              <i class="fas fa-check"></i> Listen to music ad free.
+              <br />
+              <br />
+              <i class="fas fa-check"></i> Play anywhere and even offline.
+              <br />
+              <br />
+              <i class="fas fa-check"></i> Netflix for free for 10 months.
+              <br />
+              <br />
+              <br />
+              <br />
+              <hr />
+              <form>
+                <input type="submit" value="I'M IN" />
+              </form>
+            </div>
+          </menu>
+        </div>
+      </main>
+      <div class="floatedimg">
+        <a href="index.html">
+          <img src="Music.jpg" height="100" width="100" alt="Home" />
+        </a>
+      </div>
+      <footer>
+        <div class="icons">
+          <div class="spacing">
+            <i class="fab fa-twitter fa-2x"></i>
+          </div>
+          <div class="spacing">
+            <i class="fab fa-instagram fa-2x"></i>
+          </div>
+          <div class="spacing">
+            <i class="fab fa-facebook-f fa-2x"></i>
+          </div>
+        </div>
+
+        <table>
+          <thead>
+            <tr>
+              <th>Menu</th>
+              <th>Helpful Links</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                <a href="index.html">Home</a><br />
+                <a href="download.html">Download</a><br />
+                <a href="vip.html">VIP</a><br />
+                <a href="features.html">Features</a><br />
+                <a href="signup.html">Sign Up</a><br />
+                <a href="signin.html">Sign In</a><br />
+              </td>
+              <td>
+                <a href="https://www.sonymusic.com/">Sony</a><br />
+                <a href="https://www.wmg.com/">Warner</a><br />
+                <a href="https://www.universalmusic.com/">Universal</a><br />
+                <a href="https://www.monstercat.com/">Monstercat</a>
+                <br />
+                <br />
+                <br />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="copyright">
+          Copyright &#xA9; 2019 Crescendo Music
+          <br />
+          <a href="mailto:sales@CrescendoMusic.com">Email Us</a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
